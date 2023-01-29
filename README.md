@@ -23,14 +23,21 @@ The admin after log in can do the following:
 
 USER REGISTATION: Insert a username, password and password confirmation. If the username isn't is use, add the details to the user.txt file 
 
-ADD A TASK: (Append the details to the tasks.txt file)
+ADD A TASK (Append the details to the tasks.txt file):
 * Username for the task 
 * Name of the task 
 * Description of the task
 * Due date 
 
-EDIT A TASK: (Modify the tasks.txt file)
-*
+EDIT A TASK (Modify the tasks.txt file):
+* Modify the due date and/or the username
+* Mark the task as complete
+
+VIEW ALL THE TASKS:
+* Disply all the task in a tidy manner
+
+VIEW MINE:
+* Display the user's task in a tidy manner
 
 
 ### Technologies
