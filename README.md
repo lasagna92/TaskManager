@@ -7,6 +7,8 @@
 ### General Info
 ***
 This is an application to insert, modify, organize and overview tasks.
+
+
 The user after log in (the usernames and passwords are stored in a text file) can do the following:
 * View all the tasks
 * View the logged-in user's task
@@ -21,7 +23,8 @@ The admin after log in can do the following:
 * View statistics
 * Generate reports
 
-USER REGISTATION: Insert a username, password and password confirmation. If the username isn't is use, add the details to the user.txt file 
+USER REGISTATION: 
+* Insert a username, password and password confirmation. If the username isn't is use, add the details to the user.txt file 
 
 ADD A TASK (Append the details to the tasks.txt file):
 * Username for the task 
@@ -34,10 +37,30 @@ EDIT A TASK (Modify the tasks.txt file):
 * Mark the task as complete
 
 VIEW ALL THE TASKS:
-* Disply all the task in a tidy manner
+* Disply all the tasks in a tidy manner
 
 VIEW MINE:
-* Display the user's task in a tidy manner
+* Display the user's tasks in a tidy manner
+
+GENARATE REPORTS:
+
+Generates the task_overview.txt which displays:
+* Total number of generated tasks
+* The total number of completed tasks
+* The total number of uncompleted tasks
+* The tasks that are overdue
+* The percentage of uncompleted tasks
+* The percentage of overdue tasks
+
+And the user_overview.txt which displays:
+* The total number of registered users
+* The total number of tasks generated 
+for each user displays:
+* The total number of tasks assigned to that user
+* The percentage of assigned tasks
+* The percentage of completed tasks
+* The percentage of uncompleted tasks
+* The percentage of overdue tasks
 
 
 ### Technologies
